@@ -18,7 +18,7 @@ public class CakeForStrength
         System.out.print("\n" + sickDaveSays + "I need cake for strength! Will you give me some?" + youSay);
         imput = scanner.nextLine();
         
-        if(imput.contains("OK") || imput.contains("ok") || imput.contains("Ok") || imput.contains("Okay") || imput.contains("okay") || imput.contains("OKAY") || imput.contains("Yes") || imput.contains("YES") || imput.contains("yes"))
+        if(imput.contains("OK") || imput.contains("ok") || imput.contains("Ok") || imput.contains("Okay") || imput.contains("okay") || imput.contains("OKAY") || imput.contains("Yes") || imput.contains("YES") || imput.contains("yes") || imput.contains("Yeah") || imput.contains("YEAH") || imput.contains("yeah"))
         {
             int ran = random.nextInt(2);
             
