@@ -6,17 +6,18 @@ public class LikeJava
     {
         Scanner scanner = new Scanner(System.in);
         String daveSays = "   -  -\n(________)\n\nDave Says:\n";
+        String youSay = "\n\nYou Say:\n";
         
-        System.out.println(daveSays + "Do you love Java?\n\nYou Say:");
+        System.out.print(daveSays + "Do you love Java?" + youSay);
         String imput = scanner.nextLine();
         
-        if (imput.contains("yes") || imput.contains("Yes") || imput.contains("YES"))
+        if (imput.contains("yes") || imput.contains("Yes") || imput.contains("YES") || imput.contains("yeah") || imput.contains("Yeah") || imput.contains("YEAH"))
         {
-            System.out.println("\n" + daveSays + "Supreme!");
+            System.out.print("\n" + daveSays + "Supreme!");
         }
         else
         {
-            System.out.println("\n" + daveSays + "Lame!");
+            System.out.print("\n" + daveSays + "Lame!");
         }
     }
 }
